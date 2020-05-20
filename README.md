@@ -8,7 +8,7 @@
 
 See [this comic strip introduction](https://ncase.me/contact-tracing/). The most important digital-contact-tracing system is likely to be the [upcoming Apple-Google OS update](https://www.apple.com/covid19/contacttracing/), but there are various others like [NOVID](https://www.novid.org/), Singapore's TraceTogether, etc.
 
-## What does it mean to make a digital contact tracing systems "work better", and why is it important?
+## What does it mean to make a digital contact tracing system "work better", and why is it important?
 
 A key aspect of digital contact tracing is estimating transmission probability between two people—i.e., if Alice and Bob are near each other, and Alice is infectious, how likely is it that Bob will catch it from Alice? Existing systems estimate this quantity by combining distance and duration. Distance is estimated typically via Bluetooth signal strength ("RSSI"), with stronger signals indicating closer phones. [NOVID](https://www.novid.org/) uses a different scheme based on the speed of sound (one phone emits a high-pitched beep every 5 minutes, the other phone times the exact moment when the beep arrives).
 
@@ -28,11 +28,13 @@ Now, in some situations, a cellphone microphone can easily tell that nobody is v
 
 ## Would this proposal compromise privacy?
 
-As best as I can tell (and I'm not an expert), it doesn’t undercut privacy at all, at least for the decentralized, privacy-centric systems similar to the one [this comic strip is describing](https://ncase.me/contact-tracing/), a category that includes the [Apple-Google system](https://www.apple.com/covid19/contacttracing/) and [NOVID](https://www.novid.org/). The main reason is: the microphone-derived data would be stored locally on the phone and never broadcast to anyone ever. Secondarily, we are storing a measure of whether and how loud people were talking, but not who was talking or what they said.
+As best as I can tell (and I'm not an expert), it doesn’t undercut privacy at all, at least for the decentralized, privacy-centric systems similar to the one [this comic strip is describing](https://ncase.me/contact-tracing/), a category that includes the [Apple-Google system](https://www.apple.com/covid19/contacttracing/) and [NOVID](https://www.novid.org/). The main reason is: the microphone-derived data would be stored locally on the phone and never broadcast to anyone ever.
 
 The privacy concerns with these systems are not about what information is *stored within the phone app*, but rather what information is *broadcast to the government or others*.
 
 The most important and most clear-cut case will be the contact-tracing OS update written by Apple and Google themselves. If you have a privacy concern regarding how much information is accessible to OS software written by Apple and Google, then of course you better throw your phone in the garbage: The phone OS has access to absolutely everything, and we have always been trusting Apple and Google to be good stewards of that.
+
+Secondarily, we are calculating and storing a measure of whether and how loud people were talking, but we are not storing the audio itself, or any information about who was talking or what they said.
 
 ## Would this proposal compromise phone battery life?
 
