@@ -38,9 +38,11 @@ Secondarily, we are calculating and storing a measure of whether and how loud pe
 
 ## Would this proposal compromise phone battery life?
 
-As best as I can tell (and I'm not an expert), no. I hear that audio processing is not computationally intensive. The "Hey Siri" functionality runs 24/7 on many phones without noticeable battery drain (although maybe that's an imperfect comparison because I hear they use special hardware for that?).
+I'm not an expert, but I'm cautiously optimistic. I see two paths.
 
-It's also entirely reasonable to process a 1-second sample of audio every 30 seconds (for example). That would reduce battery drain and still be a lot better than nothing.
+Most plausibly, we can duty-cycle—for example, process a 1-second sample of audio every 60 seconds. That would still be better than nothing. Remember, the threshold for declaring a contact is typically 15 minutes, so there would be 15 opportunities to catch someone speaking, if anyone is speaking. And if people are speaking very occasionally, well, that's less respiratory droplets than if people are speaking near-continuously. So classifying that as "low respiratory droplets" is not necessarily wrong.
+
+More ambitiously, the analysis could be done on the phone's low-power coprocessor. [That's how the "Hey Siri" functionality works](https://www.cultofmac.com/509163/apple-reveals-ai-magic-behind-hey-siri/). I think this would require more development effort, so is probably unlikely to happen.
 
 ## How do you tell TV or music from live people?
 
