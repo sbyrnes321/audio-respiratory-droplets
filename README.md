@@ -63,3 +63,7 @@ The simplest specification would be a binary classifier along the lines of:
 * Otherwise, return LOW RESPIRATORY DROPLETS.
 
 We can try to do better than a binary classifier—for example, quiet talking is not as bad as loud talking or singing or coughing—but this would be a start.
+
+## What's the status? How can I help?
+
+Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of deciding contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties about battery-life etc., and so on.
