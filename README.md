@@ -24,7 +24,7 @@ If we lower the threshold for exposure notifications, then we reduce misses, but
 
 As the CDC says, the virus spreads ["through respiratory droplets produced when an infected person coughs, sneezes, or talks"](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html). The difference in respiratory droplets between talking and simple breathing is supposed to be [a factor of 10](https://www.erinbromage.com/post/the-risks-know-them-avoid-them).
 
-Now, in some situations, a cellphone microphone can easily tell that nobody is vocalizing in a room. So in those situations, we can raise the threshold for "exposure". In all other cases, we can lower the threshold to compensate. This will make the systems work better.
+Now, in some situations, a cellphone microphone can easily tell that nobody is vocalizing in a room. So in those situations, we can raise the threshold for "exposure". Conversely, a cellphone microphone might hear loud singing, shouting, coughing, etc., and can set the threshold especially low. With normal conversation, it could be somewhere in between. This will make the systems work better.
 
 ## Would this proposal compromise privacy?
 
