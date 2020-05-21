@@ -66,4 +66,4 @@ We can try to do better than a binary classifier—for example, quiet talking is
 
 ## What's the status? How can I help?
 
-Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), outreach / PR, and so on.
+Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying much benefit this would provide, outreach / PR, and so on.
