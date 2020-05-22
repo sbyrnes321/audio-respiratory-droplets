@@ -14,7 +14,7 @@ A key aspect of digital contact tracing is estimating transmission probability b
 
 Distance and duration do not add up to a perfect proxy for transmission probability, and likewise Bluetooth RSSI is not a perfect proxy for distance. There are going to be both false alarms and misses. **If there are too many misses**, people get sick and die, and/or we need to compensate with more aggressive society-wide lock-downs etc. Conversely, **if there are too many false alarms**, people will stop complying with the endless quarantine requests that don’t end in them getting sick. Either they’ll figure that they must have already caught it and now they’re immune, or they’ll lose faith in the systems, or they may even simply run out of ability to find substitutes for their jobs and other obligations etc.
 
-If we lower the threshold for exposure notifications, then we reduce misses, but increase false alarms. If we raise the threshold, it's the other way around. **We "make a system work better" by pushing up the ROC curve, so that we can reduce misses *and* false alarms simultaneously, rather than needing to trade off between them.**
+If we lower the threshold for exposure notifications, then we reduce misses, but increase false alarms. If we raise the threshold, it's the other way around. **We "make a system work better" by pushing up the [ROC curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic), so that we can reduce misses *and* false alarms simultaneously, rather than needing to trade off between them.**
 
 ## How can we use audio estimation of respiratory droplets to improve the systems?
 
@@ -66,4 +66,4 @@ We can try to do better than a binary classifier—for example, quiet talking is
 
 ## What's the status? How can I help?
 
-Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying much benefit this would provide, outreach / PR, and so on.
+Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying how much benefit this would provide, outreach / PR, and so on.
