@@ -66,6 +66,14 @@ We can try to do better than a binary classifier—for example, quiet talking is
 
 ## What's the status? How can I help?
 
-Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying how much benefit this would provide, outreach / PR, and so on. (I personally am lightly involved in the [PACT contact tracing initiative](https://pact.mit.edu/), but I am many layers removed from the ultimate decision-makers at Apple and Google.)
+Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of digital contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes:
+* making the software,
+* figuring out methods of validating it,
+* resolving uncertainties (e.g. about battery-life consequences),
+* quantifying how much benefit this would provide,
+* outreach—to the general public, to the public health community, and/or to whoever is making decisions about the design of digital contact-tracing systems,
+* etc.
 
-So please help make this happen! You can submit a pull request / issue here, or email me at steven.byrnes@gmail.com
+(For the "outreach" item, I personally am lightly involved in [PACT](https://pact.mit.edu/), which is consulting with Apple-Google on the upcoming OS update, and have been advocating this, but I am many layers removed from the decision-makers, and it is a tough sell without all those other ingredients.)
+
+So please help make this happen! You can submit a pull request / issue on this GitHub page, or email me at steven.byrnes@gmail.com
