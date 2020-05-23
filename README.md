@@ -48,7 +48,7 @@ More ambitiously, the analysis could be done on the phone's low-power coprocesso
 
 I don't think it's feasible, but I also don't think it's necessary. So if people are quietly watching TV together, they would get a lower threshold even though there are few respiratory droplets in the room. We're not going for perfection, we're just trying to make it less bad. When there *is* talking, you don’t know whether it's the TV or a person. But if there *isn't* talking, and if the environment is quiet enough that you *would* be able to hear talking if it were happening, then you *know* that nobody is talking. So that's a case where you can pretty safely raise the exposure duration threshold, to reduce false alarms without excessively increasing misses.
 
-There are many examples where this would come up: every day people spend time in trains where no one is talking, waiting rooms where no one is talking, offices and laboratories where no one is talking, etc. etc.
+There are many examples where this would come up: every day people spend time in trains where no one is talking, waiting rooms where no one is talking, libraries and bus stops and offices where no one is talking, etc. etc.
 
 ## Does software for this exist? What exactly should it do?
 
@@ -66,4 +66,6 @@ We can try to do better than a binary classifier—for example, quiet talking is
 
 ## What's the status? How can I help?
 
-Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying how much benefit this would provide, outreach / PR, and so on.
+Well, at the end of the day, (1) we need working software, and (2) we need the people in charge of contact-tracing systems to decide to use it. Anything that helps on either of those, directly or indirectly, would be great. This includes making the software, figuring out methods of validating it, resolving uncertainties (e.g. about battery-life consequences), quantifying how much benefit this would provide, outreach / PR, and so on. (I personally am lightly involved in the [PACT contact tracing initiative](https://pact.mit.edu/), but I am many layers removed from the ultimate decision-makers at Apple and Google.)
+
+So please help make this happen! You can submit a pull request / issue here, or email me at steven.byrnes@gmail.com
