@@ -74,6 +74,6 @@ Well, at the end of the day, (1) we need working software, and (2) we need the p
 * outreach—to the general public, to the public health community, and/or to whoever is making decisions about the design of digital contact-tracing systems,
 * etc.
 
-(For the "outreach" item, I personally am lightly involved in [PACT](https://pact.mit.edu/), which is consulting with Apple-Google on the upcoming OS update, and have been advocating this, but I am many layers removed from the decision-makers, and it is a tough sell without all those other ingredients.)
+(For the "outreach" item, I personally am lightly involved in [PACT](https://pact.mit.edu/), which is consulting with Apple-Google on the upcoming OS update, and of course I have been advocating this, but I am many degrees of separation away from the ultimate decision-makers at Apple and Google, and anyway it is a tough sell without all those other ingredients in place.)
 
 So please help make this happen! You can submit a pull request / issue on this GitHub page, or email me at steven.byrnes@gmail.com
